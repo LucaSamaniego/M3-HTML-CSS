@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+}
+
+:root {
+    --font: 'Mulish', sans-serif;
+    --color1: #04146c ;
+    --color2: #414166 ;
+    --color3: #15163d ;
+
+}
+
+body {
+    margin: 20px 20px;
+    text-align: center;
+    display: grid;
+    place-items: center;
+    
+}
+
+#h1 {
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-family: var(--font);
+    font-weight: 700;
+    font-size: 24.48pt;
+    color: var(--color1);
+}
+
+input {
+    font-family: var(--font);
+    font-weight: 400;
+    font-size: 17pt;
+    color: var(--color2);   
+}
+
+.input-button {
+    width: 500px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+button {
+    font-family: var(--font);
+    font-weight: 600;
+    font-size: 17pt;
+    background-color: var(--color3);
+    color: white;
+    border: none;
+    padding-top: 10px;
+    
+}
+
+#cont-padre {
+    padding: 15px 50px;
+    background-color: white;
+    height: 400px;
+    width: 600px;
+    padding-left: 10px;
+}
+
+a {
+    font-family: var(--font);
+    font-weight: 400;
+    font-size: 14pt;
+    color: var(--color3);
+    text-decoration: none;
+}
+
+.line {
+    width: 524px;
+    height: 2px;
+    margin: 20px 0px;
+}
+
+.sesion {
+    margin: 10px 0;
+}
+
+.fondo-body {
+    background-image: url(./M4-desafio1-fondo.png);
+    background-repeat: no-repeat;
+
+}
+
+.fondo-form {
+    background-image: url(./M4-desafio1-fondo-form.png);    
+    width: 800px;
+    height: 500px;
+    display: grid;
+    place-items: center;
+}
+
+form {
+    width: 600px;
+    height: 400px;
+    padding: 20px;
+}
