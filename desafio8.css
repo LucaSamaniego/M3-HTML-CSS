@@ -1,0 +1,58 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    --font1: 'Roboto', sans-serif;
+    --font2: 'Roboto Slab', serif;
+    --color-primario: #3958F1;
+    --color1: #0a2ff1; 
+    --color2: #04146c;
+}
+
+
+h1 {
+    font-family: var(--font2);
+    font-weight: 700;
+    font-size: 34pt;
+    color: var(--color1);
+}
+
+h2, p {
+    font-family: var(--font1);
+    font-size: 18pt;
+    color: var(--color2);
+}
+
+h2 {
+    font-weight: 700;
+}
+
+p {
+    font-weight: 400;
+}
+
+img {
+    position: relative;
+    height: 50%;
+    width: 50%;
+    float: right;
+    }
+
+#subdiv {
+    position: absolute;
+    width: 661px;
+    min-width: 600px;
+    margin-left: 50px;
+}
+
+footer {
+    padding: 2.6%;
+    width: 100%;
+    background-color: var(--color-primario);
+    bottom: 0;
+    position: absolute;
+}
+
+
