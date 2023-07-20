@@ -17,6 +17,7 @@ h1 {
     font-weight: 700;
     font-size: 34pt;
     color: var(--color1);
+    margin-bottom: 30px;
 }
 
 h2, p {
@@ -31,6 +32,7 @@ h2 {
 
 p {
     font-weight: 400;
+    margin-bottom: 30px;
 }
 
 img {
@@ -38,6 +40,9 @@ img {
     height: 50%;
     width: 50%;
     float: right;
+    margin-bottom: 100px;
+    align-items: flex-end;
+    top: 150px;
     }
 
 #subdiv {
@@ -51,8 +56,9 @@ footer {
     padding: 2.6%;
     width: 100%;
     background-color: var(--color-primario);
-    bottom: 0;
-    position: absolute;
+    display: flex;
+    align-items: flex-end;
+
 }
 
 
